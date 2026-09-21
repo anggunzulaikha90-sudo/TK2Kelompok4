@@ -23,6 +23,8 @@ public class Main {
         System.out.println("Menu Dua\n"+"Nama Makanan\t: " + m2.getNamaMakanan()+ "\nHarga\t\t: " + m2.getHarga() + "\nKategori\t: " + m2.getKategori());
         nasiBecek m3 = new nasiBecek("Nasi Becek", 20000, "Makanan Berat");
         System.out.println("Menu Tiga\n"+"Nama Makanan\t: " + m3.getNamaMakanan()+ "\nHarga\t\t: " + m3.getHarga() + "\nKategori\t: " + m3.getKategori());
+        cireng m4 = new cireng("Cireng", 1000, "Makanan Ringan");
+        System.out.println("Menu Empat\n"+"Nama Makanan\t: " + m4.getNamaMakanan()+ "\nHarga\t\t: " + m4.getHarga() + "\nKategori\t: " + m4.getKategori());
     }
     
 }
