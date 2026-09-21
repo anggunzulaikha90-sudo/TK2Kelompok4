@@ -8,7 +8,7 @@ package Makanan;
  *
  * @author ANGGUN Z
  */
-public class Anggun {
+public class nasiPadang {
 
     String namaMakanan;
     int harga;
@@ -16,7 +16,7 @@ public class Anggun {
 
     
 
-    public Anggun(String namaMakanan, int harga, String kategori) {
+    public nasiPadang(String namaMakanan, int harga, String kategori) {
         this.namaMakanan = namaMakanan;
         this.harga = harga;
         this.kategori = kategori;
@@ -51,7 +51,7 @@ public class Anggun {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Anggun m1 = new Anggun("Nasi Padang", 12000, "Makanan Berat");
+        nasiPadang m1 = new nasiPadang("Nasi Padang", 12000, "Makanan Berat");
         System.out.println("Nama Makanan\t: " + m1.getNamaMakanan()+ "\nHarga\t\t: " + m1.getHarga() +"\nKategori\t: " +  m1.getKategori());
     }
     
