@@ -6,18 +6,12 @@ package Makanan;
 
 /**
  *
- * @author ANGGUN Z
+ * @author ThinkPad
  */
-public class nasiPadang {
+public class pisangGoreng {
     String namaMakanan;
     int harga;
     String kategori;
-
-    public nasiPadang(String namaMakanan, int harga, String kategori) {
-        this.namaMakanan = namaMakanan;
-        this.harga = harga;
-        this.kategori = kategori;
-    }
 
     public String getNamaMakanan() {
         return namaMakanan;
@@ -42,4 +36,12 @@ public class nasiPadang {
     public void setKategori(String kategori) {
         this.kategori = kategori;
     }
+
+    public pisangGoreng(String namaMakanan, int harga, String kategori) {
+        this.namaMakanan = namaMakanan;
+        this.harga = harga;
+        this.kategori = kategori;
+    }
+    
+    
 }

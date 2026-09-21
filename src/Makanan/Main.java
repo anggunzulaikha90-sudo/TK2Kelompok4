@@ -19,6 +19,8 @@ public class Main {
         
         nasiPadang m1 = new nasiPadang("Nasi Padang", 12000, "Makanan Berat");
         System.out.println("Menu Satu\n"+"Nama Makanan\t: " + m1.getNamaMakanan()+ "\nHarga\t\t: " + m1.getHarga() +"\nKategori\t: " +  m1.getKategori());
+        pisangGoreng m2 = new pisangGoreng("Pisang Goreng", 2000, "Makanan Ringan");
+        System.out.println("Menu Dua\n"+"Nama Makanan\t: " + m2.getNamaMakanan()+ "\nHarga\t\t: " + m2.getHarga() + "\nKategori\t: " + m2.getKategori());
     }
     
 }
