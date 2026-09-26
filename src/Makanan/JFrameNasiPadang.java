@@ -20,24 +20,17 @@ public class JFrameNasiPadang extends javax.swing.JFrame {
     public JFrameNasiPadang() {
         initComponents();
     }
-    void reset (){
-       tNama.setText("");
-        tHarga.setText("");
+    
+    void reset(){
+        tNama.setText(null);
+        tHarga.setText(null);
         
         cKategori.setSelectedIndex(0);
         
-        tHasil1.setText(" "); 
-        tHasil2.setText(" "); 
-        tHasil3.setText(" ");
-    }
+        tHasil1.setText(null); 
+        tHasil2.setText(null); 
+        tHasil3.setText(null);
 
-    public void kategori(){
-        String pilih = cKategori.getSelectedItem().toString();
-        if (pilih == "Makanan ringan"){
-            tHasil3.setText("Makanan ringan");
-        }else if (pilih == "Makanan berat"){
-            tHasil3.setText("Makanan berat");   
-        }
 }
     
     
@@ -83,7 +76,7 @@ public class JFrameNasiPadang extends javax.swing.JFrame {
 
         tHarga.addActionListener(this::tHargaActionPerformed);
 
-        cKategori.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Makanan ringan", "Makanan Berat" }));
+        cKategori.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Makanan ringan", "Makanan berat" }));
         cKategori.addActionListener(this::cKategoriActionPerformed);
 
         bSimpan.setText("Simpan");
@@ -205,12 +198,18 @@ public class JFrameNasiPadang extends javax.swing.JFrame {
 
     private void cKategoriActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cKategoriActionPerformed
         // TODO add your handling code here:
-        kategori();
     }//GEN-LAST:event_cKategoriActionPerformed
 
     private void bResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bResetActionPerformed
         // TODO add your handling code here:
-        reset();
+        tNama.setText(null);
+        tHarga.setText(null);
+        
+        cKategori.setSelectedIndex(0);
+        
+        tHasil1.setText(null); 
+        tHasil2.setText(null); 
+        tHasil3.setText(null);
         
     }//GEN-LAST:event_bResetActionPerformed
 
