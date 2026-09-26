@@ -33,9 +33,9 @@ public class JFrameNasiPadang extends javax.swing.JFrame {
 
     public void kategori(){
         String pilih = cKategori.getSelectedItem().toString();
-        if (pilih == ""){
+        if (pilih == "Makanan ringan"){
             tHasil3.setText("Makanan ringan");
-        }else {
+        }else if (pilih == "Makanan berat"){
             tHasil3.setText("Makanan berat");   
         }
 }
@@ -196,6 +196,7 @@ public class JFrameNasiPadang extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void tHargaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tHargaActionPerformed
