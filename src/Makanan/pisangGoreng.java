@@ -12,7 +12,12 @@ public class pisangGoreng {
     String namaMakanan;
     String harga;
     String kategori;
-
+    
+    public pisangGoreng(){
+        namaMakanan = "";
+        harga = "";
+        kategori = "";
+    }
     public String getNamaMakanan() {
         return namaMakanan;
     }
