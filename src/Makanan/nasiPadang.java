@@ -10,10 +10,16 @@ package Makanan;
  */
 public class nasiPadang {
     String namaMakanan;
-    int harga;
+    String harga;
     String kategori;
+    
+    public nasiPadang(){
+        namaMakanan = "";
+        harga = "";
+        kategori = "";
+    }
 
-    public nasiPadang(String namaMakanan, int harga, String kategori) {
+    public nasiPadang(String namaMakanan, String harga, String kategori) {
         this.namaMakanan = namaMakanan;
         this.harga = harga;
         this.kategori = kategori;
@@ -27,11 +33,11 @@ public class nasiPadang {
         this.namaMakanan = namaMakanan;
     }
 
-    public int getHarga() {
+    public String getHarga() {
         return harga;
     }
 
-    public void setHarga(int harga) {
+    public void setHarga(String harga) {
         this.harga = harga;
     }
 

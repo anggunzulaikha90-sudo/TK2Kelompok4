@@ -10,7 +10,7 @@ package Makanan;
  */
 public class jenangSumSum {
     String namaMakanan;
-    int harga;
+    String harga;
     String kategori;
 
     public String getNamaMakanan() {
@@ -21,11 +21,11 @@ public class jenangSumSum {
         this.namaMakanan = namaMakanan;
     }
 
-    public int getHarga() {
+    public String getHarga() {
         return harga;
     }
 
-    public void setHarga(int harga) {
+    public void setHarga(String harga) {
         this.harga = harga;
     }
 
@@ -37,7 +37,7 @@ public class jenangSumSum {
         this.kategori = kategori;
     }
 
-    public jenangSumSum(String namaMakanan, int harga, String kategori) {
+    public jenangSumSum(String namaMakanan, String harga, String kategori) {
         this.namaMakanan = namaMakanan;
         this.harga = harga;
         this.kategori = kategori;
