@@ -42,5 +42,10 @@ public class jenangSumSum {
         this.harga = harga;
         this.kategori = kategori;
     }
+     public jenangSumSum(){
+        namaMakanan = "";
+        harga = "";
+        kategori = "";
+    }
     
 }
