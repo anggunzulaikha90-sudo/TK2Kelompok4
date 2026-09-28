@@ -16,6 +16,11 @@ public class cireng {
     public String getNamaMakanan() {
         return namaMakanan;
     }
+    public cireng(){
+        namaMakanan = "";
+        harga = "";
+        kategori = "";
+    }
 
     public void setNamaMakanan(String namaMakanan) {
         this.namaMakanan = namaMakanan;
