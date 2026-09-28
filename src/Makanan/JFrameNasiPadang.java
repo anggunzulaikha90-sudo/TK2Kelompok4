@@ -202,15 +202,7 @@ public class JFrameNasiPadang extends javax.swing.JFrame {
 
     private void bResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bResetActionPerformed
         // TODO add your handling code here:
-        tNama.setText(null);
-        tHarga.setText(null);
-        
-        cKategori.setSelectedIndex(0);
-        
-        tHasil1.setText(null); 
-        tHasil2.setText(null); 
-        tHasil3.setText(null);
-        
+        reset();
     }//GEN-LAST:event_bResetActionPerformed
 
     private void bSimpanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bSimpanActionPerformed

@@ -12,6 +12,12 @@ public class nasiBecek {
     String namaMakanan;
     String harga;
     String kategori;
+    
+    public nasiBecek(){
+        namaMakanan = "";
+        harga = "";
+        kategori = "";
+    }
 
     public String getNamaMakanan() {
         return namaMakanan;
