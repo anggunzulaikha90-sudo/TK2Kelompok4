@@ -16,6 +16,11 @@ public class batagor {
     public String getNamaMakanan() {
         return namaMakanan;
     }
+    public batagor(){
+        namaMakanan = "";
+        harga = "";
+        kategori = "";
+    }
 
     public void setNamaMakanan(String namaMakanan) {
         this.namaMakanan = namaMakanan;
