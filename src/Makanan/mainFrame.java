@@ -46,7 +46,6 @@ public class mainFrame extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(496, 590));
         setMinimumSize(new java.awt.Dimension(496, 590));
-        setPreferredSize(new java.awt.Dimension(496, 590));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
