@@ -2,29 +2,22 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Makanan;
+package ClassMakanan;
 
 /**
  *
- * @author ANGGUN Z
+ * @author ThinkPad
  */
-public class nasiPadang {
+public class pisangGoreng {
     String namaMakanan;
     String harga;
     String kategori;
     
-    public nasiPadang(){
+    public pisangGoreng(){
         namaMakanan = "";
         harga = "";
         kategori = "";
     }
-
-    public nasiPadang(String namaMakanan, String harga, String kategori) {
-        this.namaMakanan = namaMakanan;
-        this.harga = harga;
-        this.kategori = kategori;
-    }
-
     public String getNamaMakanan() {
         return namaMakanan;
     }
@@ -48,4 +41,12 @@ public class nasiPadang {
     public void setKategori(String kategori) {
         this.kategori = kategori;
     }
+
+    public pisangGoreng(String namaMakanan, String harga, String kategori) {
+        this.namaMakanan = namaMakanan;
+        this.harga = harga;
+        this.kategori = kategori;
+    }
+    
+    
 }

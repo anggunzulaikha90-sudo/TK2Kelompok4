@@ -2,22 +2,22 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package Makanan;
+package frameMakanan;
 
 import javax.swing.JComboBox;
-
+import ClassMakanan.batagor;
 /**
  *
  * @author ANGGUN Z
  */
-public class JFramePisangGoreng extends javax.swing.JFrame {
+public class JFrameBatagor extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(JFramePisangGoreng.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(JFrameBatagor.class.getName());
 
     /**
      * Creates new form JFrameNasiPadang
      */
-    public JFramePisangGoreng() {
+    public JFrameBatagor() {
         initComponents();
     }
     
@@ -67,7 +67,7 @@ public class JFramePisangGoreng extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Pisang Goreng");
+        jLabel1.setText("Batagor");
 
         jLabel2.setText("Nama");
 
@@ -191,9 +191,9 @@ public class JFramePisangGoreng extends javax.swing.JFrame {
                     .addComponent(bReset))
                 .addGap(36, 36, 36)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(18, 18, 18)
                 .addComponent(jButton1)
-                .addContainerGap(20, Short.MAX_VALUE))
+                .addContainerGap(14, Short.MAX_VALUE))
         );
 
         pack();
@@ -211,18 +211,19 @@ public class JFramePisangGoreng extends javax.swing.JFrame {
     private void bResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bResetActionPerformed
         // TODO add your handling code here:
        reset();
+        
     }//GEN-LAST:event_bResetActionPerformed
 
     private void bSimpanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bSimpanActionPerformed
         // TODO add your handling code here:
-        pisangGoreng pg = new pisangGoreng();
-        pg.setNamaMakanan(tNama.getText());
-        pg.setHarga(tHarga.getText());
-        pg.setKategori(cKategori.getSelectedItem().toString());
+     batagor bg = new batagor();
+        bg.setNamaMakanan(tNama.getText());
+        bg.setHarga(tHarga.getText());
+        bg.setKategori(cKategori.getSelectedItem().toString());
         
-        tHasil1.setText(pg.getNamaMakanan());
-        tHasil2.setText(pg.getHarga());
-        tHasil3.setText(pg.getKategori());
+        tHasil1.setText(bg.getNamaMakanan());
+        tHasil2.setText(bg.getHarga());
+        tHasil3.setText(bg.getKategori());
 
         
     }//GEN-LAST:event_bSimpanActionPerformed
@@ -256,7 +257,7 @@ public class JFramePisangGoreng extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new JFramePisangGoreng().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new JFrameBatagor().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

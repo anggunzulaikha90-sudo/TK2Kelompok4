@@ -2,22 +2,23 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package Makanan;
+package frameMakanan;
 
+import ClassMakanan.nasiBecek;
 import javax.swing.JComboBox;
 
 /**
  *
  * @author ANGGUN Z
  */
-public class JFramejenangSumSum extends javax.swing.JFrame {
+public class JframenasiBecek extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(JFramejenangSumSum.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(JframenasiBecek.class.getName());
 
     /**
      * Creates new form JFrameNasiPadang
      */
-    public JFramejenangSumSum() {
+    public JframenasiBecek() {
         initComponents();
     }
     
@@ -67,7 +68,7 @@ public class JFramejenangSumSum extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Jenang Sum-Sum");
+        jLabel1.setText("Nasi Becek");
 
         jLabel2.setText("Nama");
 
@@ -210,19 +211,20 @@ public class JFramejenangSumSum extends javax.swing.JFrame {
 
     private void bResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bResetActionPerformed
         // TODO add your handling code here:
-        reset();
+       reset();
+        
     }//GEN-LAST:event_bResetActionPerformed
 
     private void bSimpanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bSimpanActionPerformed
         // TODO add your handling code here:
-       jenangSumSum jm = new jenangSumSum();
-        jm.setNamaMakanan(tNama.getText());
-        jm.setHarga(tHarga.getText());
-        jm.setKategori(cKategori.getSelectedItem().toString());
+     nasiBecek nb = new nasiBecek();
+        nb.setNamaMakanan(tNama.getText());
+        nb.setHarga(tHarga.getText());
+        nb.setKategori(cKategori.getSelectedItem().toString());
         
-        tHasil1.setText(jm.getNamaMakanan());
-        tHasil2.setText(jm.getHarga());
-        tHasil3.setText(jm.getKategori());
+        tHasil1.setText(nb.getNamaMakanan());
+        tHasil2.setText(nb.getHarga());
+        tHasil3.setText(nb.getKategori());
 
         
     }//GEN-LAST:event_bSimpanActionPerformed
@@ -256,7 +258,7 @@ public class JFramejenangSumSum extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new JFramejenangSumSum().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new JframenasiBecek().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

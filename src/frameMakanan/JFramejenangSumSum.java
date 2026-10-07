@@ -2,22 +2,22 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package Makanan;
+package frameMakanan;
 
 import javax.swing.JComboBox;
-
+import ClassMakanan.jenangSumSum;
 /**
  *
  * @author ANGGUN Z
  */
-public class Jframecireng extends javax.swing.JFrame {
+public class JFramejenangSumSum extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Jframecireng.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(JFramejenangSumSum.class.getName());
 
     /**
      * Creates new form JFrameNasiPadang
      */
-    public Jframecireng() {
+    public JFramejenangSumSum() {
         initComponents();
     }
     
@@ -67,7 +67,7 @@ public class Jframecireng extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Cireng");
+        jLabel1.setText("Jenang Sum-Sum");
 
         jLabel2.setText("Nama");
 
@@ -210,20 +210,19 @@ public class Jframecireng extends javax.swing.JFrame {
 
     private void bResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bResetActionPerformed
         // TODO add your handling code here:
-       reset();
-        
+        reset();
     }//GEN-LAST:event_bResetActionPerformed
 
     private void bSimpanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bSimpanActionPerformed
         // TODO add your handling code here:
-     cireng cr = new cireng();
-        cr.setNamaMakanan(tNama.getText());
-        cr.setHarga(tHarga.getText());
-        cr.setKategori(cKategori.getSelectedItem().toString());
+       jenangSumSum jm = new jenangSumSum();
+        jm.setNamaMakanan(tNama.getText());
+        jm.setHarga(tHarga.getText());
+        jm.setKategori(cKategori.getSelectedItem().toString());
         
-        tHasil1.setText(cr.getNamaMakanan());
-        tHasil2.setText(cr.getHarga());
-        tHasil3.setText(cr.getKategori());
+        tHasil1.setText(jm.getNamaMakanan());
+        tHasil2.setText(jm.getHarga());
+        tHasil3.setText(jm.getKategori());
 
         
     }//GEN-LAST:event_bSimpanActionPerformed
@@ -257,7 +256,7 @@ public class Jframecireng extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new Jframecireng().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new JFramejenangSumSum().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
