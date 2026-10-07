@@ -9,9 +9,9 @@ package ClassMakanan;
  * @author USERR
  */
 public class jenangSumSum {
-    String namaMakanan;
-    String harga;
-    String kategori;
+   private String namaMakanan;
+   private String harga;
+   private String kategori;
 
     public String getNamaMakanan() {
         return namaMakanan;
