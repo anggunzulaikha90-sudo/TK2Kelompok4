@@ -9,9 +9,9 @@ package ClassMakanan;
  * @author ThinkPad
  */
 public class nasiBecek {
-    String namaMakanan;
-    String harga;
-    String kategori;
+    private String namaMakanan;
+    private String harga;
+    private String kategori;
     
     public nasiBecek(){
         namaMakanan = "";
