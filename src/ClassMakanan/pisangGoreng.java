@@ -8,40 +8,22 @@ package ClassMakanan;
  *
  * @author ThinkPad
  */
-public class pisangGoreng {
-    private String namaMakanan;
-    private String harga;
-    private String kategori;
-    
+public class pisangGoreng extends makanan{
+    protected String jenis_pisang;
+
+    public String getJenis_pisang() {
+        return jenis_pisang;
+    }
+
+    public void setJenis_pisang(String jenis_pisang) {
+        this.jenis_pisang = jenis_pisang;
+    }
+
     public pisangGoreng(){
         namaMakanan = "";
         harga = "";
         kategori = "";
     }
-    public String getNamaMakanan() {
-        return namaMakanan;
-    }
-
-    public void setNamaMakanan(String namaMakanan) {
-        this.namaMakanan = namaMakanan;
-    }
-
-    public String getHarga() {
-        return harga;
-    }
-
-    public void setHarga(String harga) {
-        this.harga = harga;
-    }
-
-    public String getKategori() {
-        return kategori;
-    }
-
-    public void setKategori(String kategori) {
-        this.kategori = kategori;
-    }
-
     public pisangGoreng(String namaMakanan, String harga, String kategori) {
         this.namaMakanan = namaMakanan;
         this.harga = harga;
