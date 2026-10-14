@@ -8,10 +8,16 @@ package ClassMakanan;
  *
  * @author ANGGUN Z
  */
-public class nasiPadang {
-    private String namaMakanan;
-    private String harga;
-    private String kategori;
+public class nasiPadang extends makanan{
+   private String jenisKuah;
+
+    public String getJenisKuah() {
+        return jenisKuah;
+    }
+
+    public void setJenisKuah(String jenisKuah) {
+        this.jenisKuah = jenisKuah;
+    }
     
     public nasiPadang(){
         namaMakanan = "";
@@ -25,27 +31,5 @@ public class nasiPadang {
         this.kategori = kategori;
     }
 
-    public String getNamaMakanan() {
-        return namaMakanan;
-    }
-
-    public void setNamaMakanan(String namaMakanan) {
-        this.namaMakanan = namaMakanan;
-    }
-
-    public String getHarga() {
-        return harga;
-    }
-
-    public void setHarga(String harga) {
-        this.harga = harga;
-    }
-
-    public String getKategori() {
-        return kategori;
-    }
-
-    public void setKategori(String kategori) {
-        this.kategori = kategori;
-    }
+    
 }
