@@ -34,10 +34,10 @@ public class Main {
         System.out.println("Menu Empat\n"+"Nama Makanan\t: " + 
                 m4.getNamaMakanan()+ "\nHarga\t\t: " + m4.getHarga() + 
                 "\nKategori\t: " + m4.getKategori());
-        batagor m5 = new batagor("Batagor", "Rp.5000", "Makanan Ringan");
+        batagor m5 = new batagor("Batagor", "Rp.5000", "Makanan Ringan", "Ayam");
         System.out.println("Menu Lima\n"+"Nama Makanan\t: " + 
                 m5.getNamaMakanan()+ "\nHarga\t\t: " + m5.getHarga() + 
-                "\nKategori\t: " + m5.getKategori());
+                "\nKategori\t: " + m5.getKategori() + "\nJenis Kulit\t: " + m5.getJenisKulit());
         jenangSumSum m6 = new jenangSumSum("jenangSumSum", "Rp.6000",
                 "Makanan Ringan", "Jenang sum-sum putih");
         

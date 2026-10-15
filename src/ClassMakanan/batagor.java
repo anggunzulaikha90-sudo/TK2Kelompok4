@@ -8,43 +8,28 @@ package ClassMakanan;
  *
  * @author LENOVO
  */
-public class batagor {
-    private String namaMakanan;
-    private String harga;
-    private String kategori;
+public class batagor extends makanan {
+    private String jenisKulit;
 
-    public String getNamaMakanan() {
-        return namaMakanan;
+    public String getJenisKulit() {
+        return jenisKulit;
     }
+
+    public void setJenisKulit(String kulit) {
+        this.jenisKulit = jenisKulit;
+    }
+
     public batagor(){
         namaMakanan = "";
         harga = "";
         kategori = "";
+        jenisKulit = "";
     }
 
-    public void setNamaMakanan(String namaMakanan) {
-        this.namaMakanan = namaMakanan;
-    }
-
-    public String getHarga() {
-        return harga;
-    }
-
-    public void setHarga(String harga) {
-        this.harga = harga;
-    }
-
-    public String getKategori() {
-        return kategori;
-    }
-
-    public void setKategori(String kategori) {
-        this.kategori = kategori;
-    }
-
-    public batagor(String namaMakanan, String harga, String kategori) {
+    public batagor(String namaMakanan, String harga, String kategori, String jenisKulit) {
         this.namaMakanan = namaMakanan;
         this.harga = harga;
         this.kategori = kategori;
+        this.jenisKulit = jenisKulit;
     }
 }
