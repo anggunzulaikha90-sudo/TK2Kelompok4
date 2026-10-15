@@ -17,15 +17,15 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        nasiPadang m1 = new nasiPadang("Nasi Padang", "Rp.12000", "Makanan Berat");
+        nasiPadang m1 = new nasiPadang("Nasi Padang", "Rp.12000", "Makanan Berat","Kuah kental");
         System.out.println("Menu Satu\n"+"Nama Makanan\t: " + 
                 m1.getNamaMakanan()+ "\nHarga\t\t: " + m1.getHarga() +
-                "\nKategori\t: " +  m1.getKategori());
+                "\nKategori\t: " +  m1.getKategori() + "\nJenis Kuah\t: " + m1.getJenisKuah());
         pisangGoreng m2 = new pisangGoreng("Pisang Goreng", "Rp.2000", 
-                "Makanan Ringan");
+                "Makanan Ringan","Pisang Raja");
         System.out.println("Menu Dua\n"+"Nama Makanan\t: " + 
                 m2.getNamaMakanan()+ "\nHarga\t\t: " + m2.getHarga() +
-                "\nKategori\t: " + m2.getKategori());
+                "\nKategori\t: " + m2.getKategori()+ "\nJenis Pisang\t: "+ m2.getJenis_pisang() );
         nasiBecek m3 = new nasiBecek("Nasi Becek", "Rp.20000", "Makanan Berat");
         System.out.println("Menu Tiga\n"+"Nama Makanan\t: " +
                 m3.getNamaMakanan()+ "\nHarga\t\t: " + m3.getHarga() + 
@@ -39,10 +39,11 @@ public class Main {
                 m5.getNamaMakanan()+ "\nHarga\t\t: " + m5.getHarga() + 
                 "\nKategori\t: " + m5.getKategori());
         jenangSumSum m6 = new jenangSumSum("jenangSumSum", "Rp.6000",
-                "Makanan Ringan");
+                "Makanan Ringan", "Jenang sum-sum putih");
+        
         System.out.println("Menu Enam\n"+"Nama Makanan\t: " +
                 m6.getNamaMakanan()+ "\nHarga\t\t: " + m6.getHarga() + 
-                "\nKategori\t: " + m6.getKategori());
+                "\nKategori\t: " + m6.getKategori() + "\nVarian\t\t: " + m6.getVarian());
     }
     
 }

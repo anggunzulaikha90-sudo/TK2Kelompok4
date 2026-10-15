@@ -23,12 +23,14 @@ public class nasiPadang extends makanan{
         namaMakanan = "";
         harga = "";
         kategori = "";
+        jenisKuah = "";
     }
 
-    public nasiPadang(String namaMakanan, String harga, String kategori) {
+    public nasiPadang(String namaMakanan, String harga, String kategori, String jenisKuah) {
         this.namaMakanan = namaMakanan;
         this.harga = harga;
         this.kategori = kategori;
+        this.jenisKuah = jenisKuah;
     }
 
     

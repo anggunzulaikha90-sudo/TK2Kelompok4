@@ -8,44 +8,29 @@ package ClassMakanan;
  *
  * @author USERR
  */
-public class jenangSumSum {
-   private String namaMakanan;
-   private String harga;
-   private String kategori;
+public class jenangSumSum extends makanan {
+   private String varian;
 
-    public String getNamaMakanan() {
-        return namaMakanan;
+    public String getVarian() {
+        return varian;
     }
 
-    public void setNamaMakanan(String namaMakanan) {
-        this.namaMakanan = namaMakanan;
+    public void setVarian(String varian) {
+        this.varian = varian;
     }
 
-    public String getHarga() {
-        return harga;
-    }
-
-    public void setHarga(String harga) {
-        this.harga = harga;
-    }
-
-    public String getKategori() {
-        return kategori;
-    }
-
-    public void setKategori(String kategori) {
-        this.kategori = kategori;
-    }
-
-    public jenangSumSum(String namaMakanan, String harga, String kategori) {
+    public jenangSumSum(String namaMakanan, String harga, String kategori, String varian) {
         this.namaMakanan = namaMakanan;
         this.harga = harga;
         this.kategori = kategori;
+        this.varian = varian;
+        
     }
      public jenangSumSum(){
         namaMakanan = "";
         harga = "";
         kategori = "";
+        varian = "";
     }
     
 }

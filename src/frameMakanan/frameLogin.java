@@ -132,7 +132,7 @@ public class frameLogin extends javax.swing.JFrame {
     private void bLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bLoginActionPerformed
         // TODO add your handling code here:
         frameLogin.username = tUser.getText();
-        String passwprd = new String(tPassword.getPassword());
+        String password = new String(tPassword.getPassword());
         mainFrame menu = new mainFrame();
         menu.setVisible(true);
         this.dispose();

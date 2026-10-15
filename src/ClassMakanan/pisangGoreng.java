@@ -9,7 +9,7 @@ package ClassMakanan;
  * @author ThinkPad
  */
 public class pisangGoreng extends makanan{
-    protected String jenis_pisang;
+    private String jenis_pisang;
 
     public String getJenis_pisang() {
         return jenis_pisang;
@@ -23,11 +23,13 @@ public class pisangGoreng extends makanan{
         namaMakanan = "";
         harga = "";
         kategori = "";
+        jenis_pisang = "";
     }
-    public pisangGoreng(String namaMakanan, String harga, String kategori) {
+    public pisangGoreng(String namaMakanan, String harga, String kategori, String jenis_pisang) {
         this.namaMakanan = namaMakanan;
         this.harga = harga;
         this.kategori = kategori;
+        this.jenis_pisang = jenis_pisang;
     }
     
     

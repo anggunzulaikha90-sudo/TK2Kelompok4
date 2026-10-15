@@ -229,7 +229,7 @@ public class mainFrame extends javax.swing.JFrame {
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
-        JFramejenangSumSum menu = new JFramejenangSumSum();
+        JFramejenangSumSum1 menu = new JFramejenangSumSum1();
         this.setVisible(false);
         menu.setVisible(true);
     }//GEN-LAST:event_jButton5ActionPerformed
