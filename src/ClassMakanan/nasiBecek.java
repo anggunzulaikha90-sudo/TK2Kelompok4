@@ -8,45 +8,29 @@ package ClassMakanan;
  *
  * @author ThinkPad
  */
-public class nasiBecek {
-    private String namaMakanan;
-    private String harga;
-    private String kategori;
+public class nasiBecek extends makanan{
+
+    public String getToping() {
+        return toping;
+    }
+
+    public void setToping(String toping) {
+        this.toping = toping;
+    }
+    private String toping;
     
     public nasiBecek(){
         namaMakanan = "";
         harga = "";
         kategori = "";
+        toping = "";
     }
-
-    public String getNamaMakanan() {
-        return namaMakanan;
-    }
-
-    public void setNamaMakanan(String namaMakanan) {
-        this.namaMakanan = namaMakanan;
-    }
-
-    public String getHarga() {
-        return harga;
-    }
-
-    public void setHarga(String harga) {
-        this.harga = harga;
-    }
-
-    public String getKategori() {
-        return kategori;
-    }
-
-    public void setKategori(String kategori) {
-        this.kategori = kategori;
-    }
-
-    public nasiBecek(String namaMakanan, String harga, String kategori) {
+    
+    public nasiBecek(String namaMakanan, String harga, String kategori, String toping) {
         this.namaMakanan = namaMakanan;
         this.harga = harga;
         this.kategori = kategori;
+        this.toping = toping;
     }
     
     

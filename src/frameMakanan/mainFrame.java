@@ -222,7 +222,7 @@ public class mainFrame extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        JframenasiBecek menu = new JframenasiBecek();
+        JFrameNasiBecek1 menu = new JFrameNasiBecek1();
         this.setVisible(false);
         menu.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
