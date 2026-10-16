@@ -21,10 +21,10 @@ public class frameLogin extends javax.swing.JFrame {
      * Creates new form frameLogin
      */
     public static String username;
-    public char karakterPassword;
+    
     public frameLogin() {
         initComponents();
-        karakterPassword = tPassword.getEchoChar();
+       
     }
     
     
