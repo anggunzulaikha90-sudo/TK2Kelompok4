@@ -30,10 +30,10 @@ public class Main {
         System.out.println("Menu Tiga\n"+"Nama Makanan\t: " +
                 m3.getNamaMakanan()+ "\nHarga\t\t: " + m3.getHarga() + 
                 "\nKategori\t: " + m3.getKategori() + "\nToping\t: " + m3.getToping());
-        cireng m4 = new cireng("Cireng", "Rp.1000", "Makanan Ringan");
+        cireng m4 = new cireng("Cireng", "Rp.1000", "Makanan Ringan", "Ayam");
         System.out.println("Menu Empat\n"+"Nama Makanan\t: " + 
                 m4.getNamaMakanan()+ "\nHarga\t\t: " + m4.getHarga() + 
-                "\nKategori\t: " + m4.getKategori());
+                "\nKategori\t: " + m4.getKategori() + "\nIsi\t\t: " + m4.getIsi());
         batagor m5 = new batagor("Batagor", "Rp.5000", "Makanan Ringan", "Kulit lumpia");
         System.out.println("Menu Lima\n"+"Nama Makanan\t: " + 
                 m5.getNamaMakanan()+ "\nHarga\t\t: " + m5.getHarga() + 
