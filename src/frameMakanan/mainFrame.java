@@ -222,7 +222,7 @@ public class mainFrame extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        JframenasiBecek menu = new JframenasiBecek();
+        JFrameNasiBecek1 menu = new JFrameNasiBecek1();
         this.setVisible(false);
         menu.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -236,7 +236,7 @@ public class mainFrame extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        JFrameBatagor menu = new JFrameBatagor();
+        JFrameBatagor1 menu = new JFrameBatagor1();
         this.setVisible(false);
         menu.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
@@ -250,7 +250,7 @@ public class mainFrame extends javax.swing.JFrame {
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
-        Jframecireng menu = new Jframecireng();
+        JFrameCireng1 menu = new JFrameCireng1();
         this.setVisible(false);
         menu.setVisible(true);
     }//GEN-LAST:event_jButton6ActionPerformed

@@ -13,6 +13,15 @@ public class cireng {
     private String harga;
     private String kategori;
 
+    public String getIsi() {
+        return isi;
+    }
+
+    public void setIsi(String isi) {
+        this.isi = isi;
+    }
+    private String isi;
+
     public String getNamaMakanan() {
         return namaMakanan;
     }
@@ -20,6 +29,7 @@ public class cireng {
         namaMakanan = "";
         harga = "";
         kategori = "";
+        isi = "";
     }
 
     public void setNamaMakanan(String namaMakanan) {
@@ -42,10 +52,11 @@ public class cireng {
         this.kategori = kategori;
     }
 
-    public cireng(String namaMakanan, String harga, String kategori) {
+    public cireng(String namaMakanan, String harga, String kategori, String isi) {
         this.namaMakanan = namaMakanan;
         this.harga = harga;
         this.kategori = kategori;
+        this.isi = isi;
     }
     
 }
